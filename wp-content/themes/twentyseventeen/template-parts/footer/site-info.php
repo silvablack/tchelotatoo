@@ -15,7 +15,8 @@
 		the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 	}
 	?>
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyseventeen' ) ); ?>" class="imprint">
-		<?php printf( __( 'Proudly powered by %s', 'twentyseventeen' ), 'WordPress' ); ?>
+    <small style="display:block">&copy Copyright Tchelo Alvez <?php echo date('Y') ?></small>
+	<a href="<?php echo esc_url( __( 'https://silvablack.me/', 'silvablackdev' ) ); ?>" class="imprint">
+		<?php printf( __( 'Desenvolvido por %s', 'silvablackdev' ), 'Silva Black' ); ?>
 	</a>
 </div><!-- .site-info -->
